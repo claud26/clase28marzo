@@ -19,6 +19,9 @@
             <label>Esto es un label
                 <input type="text">
             </label>
+            <label>Esto es otro label
+                <input type="text">
+            </label>
         </form>
         <button type="submit" class="btn btn-primary btn-sm">Submit</button>
     </body>
