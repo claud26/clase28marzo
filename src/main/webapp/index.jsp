@@ -10,10 +10,10 @@
 <!DOCTYPE html>
 
 <script>
-                function soloNumeros(e) {
-            var key = Window.Event ? e.which : e.keyCode
-                    return (key >= 48 && key <= 57)
-        }</script>
+    function soloNumeros(e) {
+        var key = Window.Event ? e.which : e.keyCode
+        return (key >= 48 && key <= 57)
+    }</script>
 
 <html>
     <head>
@@ -55,7 +55,7 @@
             <label>
                 <input type="text" name="DIG">
             </label>
-             <button type="submit" class="btn btn-primary btn-sm">Enviar</button>
+            <button type="submit" class="btn btn-primary btn-sm">Enviar</button>
         </form>
     </body>
 </html>
